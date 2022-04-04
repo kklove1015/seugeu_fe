@@ -1,70 +1,59 @@
 @import url("https://fonts.googleapis.com/css2?family=Jua&family=Nanum+Pen+Script&display=swap");
 body {
   margin: 0;
+  overflow-y: hidden;
 }
 
-.login-wrapper {
-  background-image: url("../html/resource/BG.jpg");
-  background-repeat: no-repeat;
-  overflow: hidden;
-}
-
-.background {
+.container {
   display: flex;
   justify-content: center;
 }
 
+#background-img {
+  position: absolute;
+  transform: translateY(-50%);
+  top: 50%;
+  width: 100%;
+}
+
+.box {
+  /* display: flex;
+  justify-content: center; */
+}
+
 #box-img {
+  position: absolute;
+  transform: translateY(-50%);
+  top: 50%;
+  width: 80%;
   box-shadow: 10px 10px 100px #3f4242;
-  margin-top: 155px;
 }
 
-/*  */
-.left {
-  width: 50%;
-  float: left;
-  box-sizing: border-box;
+.form-wrapper {
+  width: 100%;
+  margin-left: 30%;
 }
-.right {
-  height: 100%;
-  width: 50%;
-  float: right;
-}
-.right_top {
-  width: auto;
-  height: 20%;
-}
-.right_middle {
-  width: auto;
-  height: 60%;
-}
-.right_bottom {
-  width: auto;
-  height: 20%;
-}
-.right_middle_title {
+
+#form-title {
   text-align: center;
-  font-size: 40px;
+  /* text-align: center;
+  font-size: 35px;
   color: #3f4242;
-  font-family: "Jua", sans-serif;
-}
-.right_middle_form {
-  text-align: center;
+  font-family: "Jua", sans-serif; */
 }
 
-.login-form {
-  margin: 20%;
-}
 .input-box {
   position: relative;
-  margin: 10px 0;
+  margin-left: auto;
+  margin-right: auto;
+  width: 300px;
 }
 
 .input-box > input {
   background: transparent;
   border: none;
   border-bottom: solid 1px #ccc;
-  padding: 20px 0px 5px 0px;
+  padding: 20px 0px 0px;
   font-size: 14pt;
   width: 100%;
 }
