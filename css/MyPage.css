@@ -1,0 +1,10 @@
+.wrapper {
+  display: grid;
+  grid-template-areas: "sidebar content";
+}
+.sidebar {
+  background-color: aqua;
+}
+.content {
+  background-color: blueviolet;
+}
