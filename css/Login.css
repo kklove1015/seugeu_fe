@@ -1,32 +1,42 @@
 @import url("https://fonts.googleapis.com/css2?family=Jua&family=Nanum+Pen+Script&display=swap");
+
 body {
-  margin: 0;
-  overflow-y: hidden;
+  /* background-image: url("../html/resource/BG.jpg");
+  background-repeat: no-repeat;
+  width: 500px; */
+  background: url("../html/resource/BG.jpg") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
 
 .container {
   display: flex;
   justify-content: center;
+  background-image: url("../html/resource/form_bg.jpeg");
+  box-shadow: 10px 10px 100px #3f4242;
+  width: 1520px;
+  height: 780px;
 }
 
-#background-img {
+/* #background-img {
   position: absolute;
   transform: translateY(-50%);
   top: 50%;
   width: 100%;
-}
+} */
+
+/* #background-img {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+} */
 
 .box {
   /* display: flex;
   justify-content: center; */
-}
-
-#box-img {
-  position: absolute;
-  transform: translateY(-50%);
-  top: 50%;
-  width: 80%;
-  box-shadow: 10px 10px 100px #3f4242;
 }
 
 .form-wrapper {
